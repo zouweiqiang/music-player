@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QQ音乐播放器</title>
+    <link href="customer/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="index.css">
+    <script src="js/jquery.min.js"></script>
+    <script src="customer/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/play.js"></script>
+    <script src="js/progress.js"></script>
+    <!-- <script src="js/lyric.js"></script> -->
+    <script src="js/index.js"></script>
+</head>
+
+<body>
+    <div class="head">
+        <img src="images/player_logo.png" alt="">
+        <ul>
+            <li>登陆</li>
+            <li>注册</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="content_in">
+            <div class="content_left">
+                <div class="tool_nav">
+                    <ul>
+                        <li><span></span>收藏</li>
+                        <li><span></span>下载</li>
+                        <li><span></span>添加</li>
+                        <li><span></span>删除</li>
+                        <li><span></span>清空列表</li>
+                    </ul>
+                </div>
+                <div class="tool_list">
+                    <ul>
+                        <li class="list_head">
+                            <div class="list_chec"><span></span></div>
+                            <div class="list_number"></div>
+                            <div class="list_name">歌曲</div>
+                            <div class="list_singer">歌手</div>
+                            <div class="list_timer">时长</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="content_right">
+                <div class="song_info">
+                    <a href=""></a>
+                </div>
+                <div class="song_xinxi">
+                    <div class="song_info_name">
+                        歌曲名：<a href="javascript:;">世间美好与你环环相扣</a>
+                    </div>
+                    <div class="song_name">
+                        歌手名：<a href="javascript:;">王浩哲</a>
+                    </div>
+                    <div class="song_album">
+                        专辑名：<a href="javascript:;">Late Love</a>
+                    </div>
+
+                    <ul class="song_lyric">
+                        <li>第一行歌词</li>
+                        <li>第二行歌词</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer_in">
+            <a class="music_pre" href="#" title="alt+<--"></a>
+            <a class="music_play" href="#" title="[空格]"></a>
+            <a class="music_next" href="#" title="alt+-->"></a>
+            <div class="music_progress">
+                <div class="music_top">
+                    <span class="music_name">世间美好与你环环相扣</span>
+                    <span class="music_progress_music">00：10/4：10</span>
+                </div>
+                <div class="music_progress_line">
+                    <div class="music_progress_load"></div>
+                    <div class="music_progress_play"></div>
+                </div>
+            </div>
+            <a class="music_xunhuan" href="" title="循环"></a>
+            <a class="music_love" href="" title="喜欢"></a>
+            <a class="music_xiazai" href="" title="下载"></a>
+            <a class="music_pinglun" href="" title="评论"></a>
+            <a class="music_chunjing" href="" title="打开纯净模式"></a>
+            <div class="voice">
+                <a class="voice_big" href="javascript:;" title="调节音量"></a>
+                <div class="voice_line">
+                    <div class="voice_load"></div>
+                    <div class="voice_play"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 高斯模糊背景 -->
+    <div class="mask_bg"></div>
+    <div class="mask"></div>
+    <audio src=""></audio>
+</body>
+
+</html>
